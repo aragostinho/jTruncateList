@@ -1,0 +1,124 @@
+<html>
+<head>
+	<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script language="javascript" src="jtruncatelist.js"></script>
+	<link href="jtruncatelist.css" rel="stylesheet" type="text/css" />
+	<script language="javascript">
+		$(function(){
+
+			$('.sampleList1').jTruncateList({
+				length: 5,
+				moreItens: "more",
+				lessItens: "",
+				ellipsisItens: ""
+			});  
+
+			$('.sampleList2').jTruncateList({
+				length: 5,
+				moreItens: "more",
+				lessItens: "less",
+				ellipsisItens: ""
+			});  
+
+			$('.sampleList3').jTruncateList({
+				length: 5,
+				moreItens: "more",
+				lessItens: "less",
+				ellipsisItens: "..."
+			});  
+
+
+			$('.sampleList4').jTruncateList({
+				length: 5,
+				moreItens: "more",
+				lessItens: "less",
+				ellipsisItens: "...",
+				animateShow: 400,
+				animateHide: 100
+			});  
+
+
+		});
+
+	</script>
+</head>
+<body>
+
+	<h1>JTruncateList Examples</h1> 
+	<ul class="menuExamples">
+		<li><a href="#example1">Example 1</a></li>
+		<li><a href="#example2">Example 2</a></li>
+		<li><a href="#example3">Example 3</a></li>
+		<li><a href="#example4">Example 4</a></li>
+	</ul>
+
+	<a name="example1"></a>	
+	<h2>Example 1</h1>
+		<h3><strong>Options: </strong> limitItens: 5 | moreItens: 'more'</h3>	
+		<ul class="sampleList1">
+			<li>Item 1</li>	 
+			<li>Item 2</li>	 
+			<li>Item 3</li>	 
+			<li>Item 4</li>	 
+			<li>Item 5</li>	 
+			<li>Item 6</li>	 
+			<li>Item 7</li>	 
+			<li>Item 8</li>	 
+			<li>Item 9</li>	 
+			<li>Item 10</li>	 
+		</ul>
+
+
+		<a name="example2"></a>
+		<h2>Example 2</h1>
+			<h3><strong>Options: </strong>limitItens: 5 | moreItens: 'more' | lessItens: 'less'</h3>	
+			<ul class="sampleList2">
+				<li>Item 1</li>	 
+				<li>Item 2</li>	 
+				<li>Item 3</li>	 
+				<li>Item 4</li>	 
+				<li>Item 5</li>	 
+				<li>Item 6</li>	 
+				<li>Item 7</li>	 
+				<li>Item 8</li>	 
+				<li>Item 9</li>	 
+				<li>Item 10</li>	 
+			</ul>
+
+			<a name="example3"></a>
+			<h2>Example 3</h1>
+				<h3><strong>Options: </strong>limitItens: 5 | moreItens: 'more' | lessItens: 'less' | ellipsisItens: '...'</h3>	
+				<ul class="sampleList3">
+					<li>Item 1</li>	 
+					<li>Item 2</li>	 
+					<li>Item 3</li>	 
+					<li>Item 4</li>	 
+					<li>Item 5</li>	 
+					<li>Item 6</li>	 
+					<li>Item 7</li>	 
+					<li>Item 8</li>	 
+					<li>Item 9</li>	 
+					<li>Item 10</li>	 
+				</ul>
+
+
+				<a name="example4"></a>
+				<h2>Example 4</h1>
+					<h3><strong>Options: </strong>limitItens: 5 | moreItens: 'more' | lessItens: 'less' | ellipsisItens: '...' | animateShow: 400 | animateHide: 100  </h3>	
+					<ul class="sampleList4">
+						<li>Item 1</li>	 
+						<li>Item 2</li>	 
+						<li>Item 3</li>	 
+						<li>Item 4</li>	 
+						<li>Item 5</li>	 
+						<li>Item 6</li>	 
+						<li>Item 7</li>	 
+						<li>Item 8</li>	 
+						<li>Item 9</li>	 
+						<li>Item 10</li>	 
+					</ul>
+
+
+
+					</body>
+					</html>
